@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>France</title>
+    <link rel="stylesheet" href="styleL.css">
+    
+</head>
+<body>
+
+    <script>
+        window.onload=function()
+        {
+            var hidediv=document.getElementById('map');
+            document.onclick=function(div)
+            {
+                if(div.target.id !=='map'){
+                    window.history.back();
+ 
+                }
+            
+            };
+        };
+    </script>
+
+    <div id="map-img"></div>
+    <div id="map">
+        <h1>FRANCE</h1>
+        <a href="#"><p>Eiffel Tower</p></a>
+    </div>
+</body>
+</html>

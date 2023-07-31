@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#mainMap{
+    margin: 0;
+    background: #fff;
+    min-height: 100vh;
+    width: 100%;   
+    background-image: url(Images/world\ map.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.a{
+    color: red;
+}
+
+.Egypt{
+    position:relative;
+    top: 255px;
+    left: 740px;
+    font-size: 27px;
+    color: red;
+    cursor: pointer;
+}
+
+.Mexico{
+    position:relative;
+    top: 270px;
+    left: 250px;
+    font-size: 27px;
+    color: red;
+    cursor: pointer;
+}
+
+.India{
+    position:absolute;
+    top: 255px;
+    right: 430px;
+    font-size: 27px;
+    color: red;
+    cursor: pointer;
+}
+
+.Italy{
+    position:absolute;
+    top: 180px;
+    right: 665px;
+    font-size: 27px;
+    color: red;
+    cursor: pointer;
+}
+
+.France{
+    position:absolute;
+    top: 168px;
+    right: 700px;
+    font-size: 27px;
+    color: red;
+    cursor: pointer;
+}
+
+
